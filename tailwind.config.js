@@ -7,7 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily
+      fontFamily: {
+        roboto: ['var(--font-roboto)', 'sans-serif']
+      },
+      colors: {
+        BluePrimary: '#0065bd',
+        GreyPrimary: '#333333',
+        GreySecondary: '#727272',
+      }
     },
   },
   plugins: [],
